@@ -7,56 +7,66 @@
   <title>HTML practice</title>
 </head>
 <body>
-  <div>
-    <h1>株式会社TECH</h1>
-  </div>
-  <ul>
-    <li>
+  <header>
+    <div>
+      <h1>株式会社TECH</h1>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li>
       <a href="ホーム">ホーム</a>
-    </li>
-    <li>
+      </li>
+      <li>
       <a href="企業情報">企業情報</a>
-    </li>
-    <li>
+      </li>
+      <li>
       <a href="会社概要">会社概要</a>
-    </li>
-    <li>
+      </li>
+      <li>
       <a href="よくある質問">よくある質問</a>
-    </li>
-    <li>
+      </li>
+      <li>
       <a href="お問い合わせ">お問い合わせ</a>
-    </li>
-  </ul>
-  <img src="mv/mv.png" alt="mv">
-  <p>最新のテクノロジーで社会課題を解決</p>
+      </li>
+    </ul>
+  </nav>
 
-  <h2>会社概要</h2>
-  <table>
-    <tr>
-      <th>会社名</th>
-      <td>株式会社TECH</td>
-    </tr>
-    <tr>
-      <th>代表者</th>
-      <td>山田 太郎</td>
-  </tr>
-    <tr>
-      <th>所在地</th>
-      <td>東京都渋谷区神宮前</td>
-    </tr>
-    <tr>
-      <th>設立</th>
-      <td>2019/07/17</td>
-    </tr>
-    <tr>
-      <th>従業員数</th>
-      <td>100人</td>
-    </tr>
-    <tr>
-      <th>資本金</th>
-      <td>1000万円</td>
-    </tr>
-  </table>
+  <main>
+    <section>
+      <img src="mv/mv.png" alt="mv">
+      <p>最新のテクノロジーで社会課題を解決</p>
+    </section>
+    <section>
+      <h2>会社概要</h2>
+      <table>
+        <tr>
+          <th>会社名</th>
+          <td>株式会社TECH</td>
+        </tr>
+        <tr>
+          <th>代表者</th>
+          <td>山田 太郎</td>
+        </tr>
+        <tr>
+          <th>所在地</th>
+          <td>東京都渋谷区神宮前</td>
+        </tr>
+        <tr>
+          <th>設立</th>
+          <td>2019/07/17</td>
+        </tr>
+        <tr>
+          <th>従業員数</th>
+          <td>100人</td>
+        </tr>
+        <tr>
+          <th>資本金</th>
+          <td>1000万円</td>
+        </tr>
+      </table>
+    </section>
+  </main>
 
   <h2>お問い合わせ</h2>
   <form action="送信先" method="post">
@@ -75,7 +85,9 @@
     <input type="submit" value="申し込み">
   </form>
 
-  <small>&copy; 2020 TECH inc.</small>
-
+  <footer>
+    <small>&copy; 2020 TECH inc.</small>
+  </footer>
+  
 </body>
 </html>
